@@ -48,6 +48,18 @@
       </header>
       <main>
         <h1>Welcome to Rungnapa's Website!</h1>
+        <a href="images/profilefull.png">
+          <img
+            src="images/profilefull.png"
+            alt="my profile picture"
+            sizes="(max-width:500px) 150px, 300px"
+            srcset="
+              images/profile150.png  300w,
+              images/profile300.png  500w,
+              images/profilefull.png 450w
+            "
+          />
+        </a>
         <p>
           Hello, my name is Rungnapa(Rose). I am from Thailand.<br />
           I like traveling a lot and I have been to many places.<br />
@@ -59,9 +71,15 @@
           amazing.<br />
         </p>
         <h2>My Favourite Things</h2>
-        <a target="_blank" href="https://saaothaisushi.com/index.html"
-          ><img src="images/logo.jpg" alt="restaurant logo"
-        /></a>
+        <figure>
+          <a target="_blank" href="https://saaothaisushi.com/index.html"
+            ><img src="images/logo.jpg" alt="restaurant logo"
+          /></a>
+          <figcaption>
+            <strong>Figure 1.</strong> A display of the restaurant logo
+          </figcaption>
+        </figure>
+
         <h3>Global Food</h3>
         <ol>
           <li>Asian Food</li>
@@ -86,6 +104,16 @@
             <cite>Examples of Haiku Poems: Traditional and Modern</cite>
           </p>
         </blockquote>
+        <h3>Public Domain Audiobook</h3>
+        <audio src="http://www.archive.org/download/rover_01_20_2109_librivox/rover0120_05_various_128kb.mp3" controls>
+          <a href="http://www.archive.org/download/rover_01_20_2109_librivox/rover0120_05_various_128kb.mp3">Download audio </a>
+        </audio>
+        <h3>YouTube Video</h3>
+        <iframe width="560" height="315" allowfullscreen
+        src="https://www.youtube.com/embed/ffLLmV4mZwU">
+  
+      </iframe>
+
       </main>
       <footer>
         <hr />
@@ -101,6 +129,19 @@
             >Rungnapa</a
           >
         </p>
+        <picture>
+          <source type="image/svg+xml" srcset="images/sc-logo/sc-logo.svg" />
+          <img
+            src="images/sc-logo/sc-logo.png"
+            width="70"
+            alt="Sault College logo"
+            srcset="
+              images/sc-logo/sc-logo.png,
+              images/sc-logo/sc-logo@1.5x.png 1.5x,
+              images/sc-logo/sc-logo@2x.png   2x
+            "
+          />
+        </picture>
       </footer>
       <a href="#top" title="Back to top">◤</a>
       <!--Found Me!-->
