@@ -28,6 +28,7 @@
     <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <style> table { border-collapse: collapse; } th,td { border: 1px solid rgba(0,0,0,0.2); } </style> 
   </head>
   <body>
     <div class="width-wrap">
@@ -66,6 +67,30 @@
           I am interested in programming languages and I think they are
           amazing.<br />
         </p>
+        <table>
+          <caption>Table 1. CurrentCourses</caption>
+          <thead>
+          <tr><th rowspan="3" scope="rowgroup">Term</th></tr>
+          <tr><th colspan="3" scope="colgroup">Course</th></tr>
+          <tr><th scope="colgroup">Code</th><th>Name</th><th>Hrs/Week</th></tr>
+        </thead>
+        <tbody>
+          <tr><th rowspan="6" scope="rowgroup">Fall</th><td>CSD105</td><td>Python</td><td>3</td></tr>
+          <tr><td>CMM115</td><td>Communication I</td><td>3</td></tr>
+          <tr><td>CSD120</td><td>Introduction to Web Development</td><td>4</td></tr>
+          <tr><td>CSO104</td><td>Introduction to Operating Systems and LAN </td><td>4</td></tr>
+          <tr><td>MTH122</td><td>Computer Mathematics</td><td>3</td></tr>
+          <tr><td>TNY130</td><td>Technology in Society</td><td>2</td></tr>
+          <tr><th rowspan="5" scope="rowgroup">Winter</th><td>CSA</td><td>Business Application I</td><td>4</td></tr>
+          <tr><td>CSD102</td><td>Programming Using C++</td><td>5</td></tr>
+          <tr><td>CSD212</td><td>Web Scripting Languages</td><td>4</td></tr>
+          <tr><td>CSO102</td><td>Introduction to Linux</td><td>4</td></tr>
+          <tr><td>SCT104</td><td>PC Hardware and Networking</td><td>5</td></tr>
+        </tbody>
+        <tfoot>
+          <tr><th colspan="3" scope="row">Total</th><td>41</td></tr>
+        </tfoot>
+        </table>
         <h2>My Favourite Things</h2>
         <figure>
           <a target="_blank" href="https://saaothaisushi.com/index.html"
