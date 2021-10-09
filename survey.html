@@ -57,7 +57,7 @@
       </header>
       <main>
         <h1>Survey</h1>
-        <form action="/survey.html">
+        <form action="https://formspree.io/f/mvodylla" method="POST">
           <p>
             <label for="name_field"
               >What is your name?
@@ -79,9 +79,10 @@
           </p>
           <input
             id="best_whole_number"
-            type="tel"
+            type="number"
             name="best_whole_number"
-            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            min="1"
+            step="1"
           />
 
           <p><label for="best_day">Which day is best?</label></p>
@@ -135,7 +136,7 @@
             rows="5"
             placeholder="Enter the correct answer here"
           ></textarea>
-          <button type="submit" value="submit">Send</button>
+          <button type="submit">Send</button>
         </form>
       </main>
       <footer>
