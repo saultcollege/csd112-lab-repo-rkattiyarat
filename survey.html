@@ -54,47 +54,48 @@
               >What is your name?
               <abbr title="required" aria-label="required">*</abbr></label
             >
-          </p>
-          <input id="name_field" type="text" name="name_field" required />
 
+            <input id="name_field" type="text" name="name_field" required />
+          </p>
           <p>
             <label for="email_field"
               >What is your email?
               <abbr title="required" aria-label="required">*</abbr></label
             >
-          </p>
-          <input id="email_field" type="email" name="email_field" required />
 
+            <input id="email_field" type="email" name="email_field" required />
+          </p>
           <p>
             <label for="best_whole_number">Which whole number is best?</label>
+
+            <input
+              id="best_whole_number"
+              type="number"
+              name="best_whole_number"
+              min="1"
+              step="1"
+            />
           </p>
-          <input
-            id="best_whole_number"
-            type="number"
-            name="best_whole_number"
-            min="1"
-            step="1"
-          />
-
-          <p><label for="best_day">Which day is best?</label></p>
-          <input id="best_day" type="date" name="best_day" />
-
+          <p>
+            <label for="best_day">Which day is best?</label>
+            <input id="best_day" type="date" name="best_day" />
+          </p>
           <p>
             <label for="best_bear"
               >Which bear is best?
               <abbr title="required" aria-label="required">*</abbr></label
             >
-          </p>
-          <select name="best_bear" id="best_bear" required>
-            <option value="" label=" "></option>
-            <option value="Black">Black</option>
-            <option value="Brown">Brown</option>
-            <option value="Care">Care</option>
-            <option value="Panda">Panda</option>
-            <option value="Polar">Polar</option>
-            <option value="Teddy">Teddy</option>
-          </select>
 
+            <select name="best_bear" id="best_bear" required>
+              <option value="" label=" "></option>
+              <option value="Black">Black</option>
+              <option value="Brown">Brown</option>
+              <option value="Care">Care</option>
+              <option value="Panda">Panda</option>
+              <option value="Polar">Polar</option>
+              <option value="Teddy">Teddy</option>
+            </select>
+          </p>
           <fieldset>
             <legend>Do you like radio buttons?</legend>
             <ul>
@@ -119,15 +120,17 @@
             </ul>
           </fieldset>
 
-          <p><label for="life_meaning">What is the meaning of life?</label></p>
-          <textarea
-            name="life_meaning"
-            id="life_meaning"
-            cols="50"
-            rows="5"
-            placeholder="Enter the correct answer here"
-          ></textarea>
-          <button type="submit">Send</button>
+          <p>
+            <label for="life_meaning">What is the meaning of life?</label>
+            <textarea
+              name="life_meaning"
+              id="life_meaning"
+              cols="50"
+              rows="5"
+              placeholder="Enter the correct answer here"
+            ></textarea>
+            <button type="submit">Send</button>
+          </p>
         </form>
       </main>
       <footer>
