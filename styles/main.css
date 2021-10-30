@@ -90,7 +90,7 @@ tfoot,
 tbody th {
   background-color: rgba(0, 0, 0, 0.2);
 }
-dt {
+td {
   background-color: rgba(0, 0, 0, 0.05);
 }
 tbody tr:nth-child(even) {
