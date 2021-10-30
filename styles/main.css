@@ -39,7 +39,7 @@ h3 {
   color: royalblue;
 }
 body a {
-  color: #000c66;
+  color: #660066;
 }
 nav a {
   color: red;
@@ -97,7 +97,6 @@ tbody tr:nth-child(even) {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-/* Survey */
 
 input + label {
   display: inline;
