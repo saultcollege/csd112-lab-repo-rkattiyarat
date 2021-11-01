@@ -51,6 +51,7 @@ nav a {
 
 nav ul li {
   display: inline;
+  margin: 1em;
 }
 header {
   border-top: 4px solid rgba(0, 0, 0, 0.1);
