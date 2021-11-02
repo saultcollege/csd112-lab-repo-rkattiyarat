@@ -17,7 +17,7 @@ html {
   border: 1px solid rgba(0, 0, 0, 0.3);
   background-color: #c3e0e5;
 }
-hr {
+footer hr {
   width: 50vw;
   min-width: 300px;
   max-width: 890px;
