@@ -51,7 +51,6 @@ nav a {
 
 nav ul li {
   display: inline;
-  margin: 1em;
 }
 header {
   border-top: 4px solid rgba(0, 0, 0, 0.1);
@@ -64,7 +63,6 @@ nav {
   padding-right: 0em;
   margin-left: 2em;
   margin-right: 2em;
-  padding-top: 1em;
   padding-bottom: 0.5em;
 }
 nav ul {
@@ -72,11 +70,15 @@ nav ul {
   padding: 0;
 }
 nav ul li a:hover {
-  border-top: 4px solid;
+  border-top-color: red;
 }
 nav ul li a {
-  margin-top: -1em;
+  margin-top: -4px;
   padding-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  display: inline-block;
+  border-top: 4px solid transparent;
 }
 
 td,
@@ -86,15 +88,15 @@ th {
   padding-left: 1em;
   padding-right: 1em;
 }
-thead,
-tfoot,
-tbody th {
+thead td,
+tfoot td,
+th {
   background-color: rgba(0, 0, 0, 0.2);
 }
 td {
   background-color: rgba(0, 0, 0, 0.05);
 }
-tbody tr:nth-child(even) {
+tbody tr:nth-child(even) td {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
@@ -112,6 +114,7 @@ label {
   padding-left: 3em;
   padding-right: 3em;
   background-color: burlywood;
+  color: cornflowerblue;
 }
 input:invalid {
   background-color: cornflowerblue;
