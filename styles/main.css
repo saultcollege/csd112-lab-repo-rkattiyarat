@@ -136,11 +136,7 @@ iframe {
   border-top-right-radius: 2em;
   border-bottom-left-radius: 2em;
 }
-ul li[type="radio"] {
+fieldset ul{
   padding:0;
   list-style-type:none;
-  margin: 0;
-
-
-
 }
