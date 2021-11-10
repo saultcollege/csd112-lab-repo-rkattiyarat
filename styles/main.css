@@ -32,6 +32,8 @@ dt::after {
 body {
   background-color: #274472;
   color: #41729f;
+  font-family: 'Balsamiq Sans', cursive;
+  line-height: 1.3em;
 }
 h1,
 h2,
@@ -40,6 +42,10 @@ h3 {
 }
 body a {
   color: #660066;
+  text-decoration: none;
+}
+body a:hover {
+  text-decoration: underline;
 }
 nav a {
   color: red;
@@ -119,3 +125,9 @@ label {
 input:invalid {
   background-color: cornflowerblue;
 }
+
+h1, h2, h3,h4, h5, h6 {
+  font-family:'Balsamiq Sans', cursive;
+}
+body
+
