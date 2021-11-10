@@ -144,3 +144,9 @@ fieldset ul{
   padding:0;
   list-style-type:none;
 }
+h1 {
+background: rgb(215,22,22);
+background: linear-gradient(254deg, rgba(215,22,22,0.028634361233480177) 10%, rgba(250,107,107,0.8986784140969163) 100%, rgba(0,212,255,1) 100%);
+background-clip:text ;
+color: rgba(0, 0, 0, 0);
+}
