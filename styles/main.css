@@ -49,6 +49,9 @@ body a:hover {
 }
 nav a {
   color: red;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing:4px;;
 }
 ::selection {
   color: blueviolet;
@@ -77,6 +80,7 @@ nav ul {
 }
 nav ul li a:hover {
   border-top-color: red;
+  text-decoration: none;
 }
 nav ul li a {
   margin-top: -4px;
