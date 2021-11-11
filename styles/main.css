@@ -32,7 +32,7 @@ dt::after {
 body {
   background-color: #274472;
   color: #41729f;
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: "Balsamiq Sans", cursive;
   line-height: 1.3em;
 }
 h1,
@@ -51,7 +51,7 @@ nav a {
   color: red;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing:4px;;
+  letter-spacing: 4px;
 }
 ::selection {
   color: blueviolet;
@@ -110,7 +110,6 @@ tbody tr:nth-child(even) td {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-
 input + label {
   display: inline;
 }
@@ -130,26 +129,36 @@ input:invalid {
   background-color: cornflowerblue;
 }
 
-h1, h2, h3,h4, h5, h6 {
-  font-family:'Balsamiq Sans', cursive;
-  line-height:normal;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Balsamiq Sans", cursive;
+  line-height: normal;
 }
 body ol {
-  list-style-type:upper-roman;
+  list-style-type: upper-roman;
 }
 iframe {
   border-top-right-radius: 2em;
   border-bottom-left-radius: 2em;
 }
-fieldset ul{
-  padding:0;
-  list-style-type:none;
+fieldset ul {
+  padding: 0;
+  list-style-type: none;
 }
 h1 {
-background: rgb(215,22,22);
-background: linear-gradient(254deg, rgba(215,22,22,0.028634361233480177) 10%, rgba(250,107,107,0.8986784140969163) 100%, rgba(0,212,255,1) 100%);
-background-clip:text ;
-color: rgba(0, 0, 0, 0);
+  background: rgb(215, 22, 22);
+  background: linear-gradient(
+    254deg,
+    rgba(215, 22, 22, 0.028634361233480177) 10%,
+    rgba(250, 107, 107, 0.8986784140969163) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
 }
 [class="bio"] {
   column-count: 3;
@@ -161,21 +170,21 @@ table {
   caption-side: bottom;
 }
 image {
-  max-width:100% ;
+  max-width: 100%;
 }
 main div a img {
   padding: 2%;
   background-color: white;
-  box-shadow:2px 2px 6px  rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
 }
 footer {
   font-size: 75%;
   text-align: center;
 }
-a[href="#top"]{
-  text-shadow:rgb(7, 7, 6) 1px 0 10px; 
+a[href="#top"] {
+  text-shadow: rgb(7, 7, 6) 1px 0 10px;
 }
-a[href="#top"]:hover{
+a[href="#top"]:hover {
   text-decoration: none;
 }
