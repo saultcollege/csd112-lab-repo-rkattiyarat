@@ -132,6 +132,7 @@ input:invalid {
 
 h1, h2, h3,h4, h5, h6 {
   font-family:'Balsamiq Sans', cursive;
+  line-height:normal;
 }
 body ol {
   list-style-type:upper-roman;
@@ -149,4 +150,22 @@ background: rgb(215,22,22);
 background: linear-gradient(254deg, rgba(215,22,22,0.028634361233480177) 10%, rgba(250,107,107,0.8986784140969163) 100%, rgba(0,212,255,1) 100%);
 background-clip:text ;
 color: rgba(0, 0, 0, 0);
+}
+[class="bio"] {
+  column-count: 3;
+  column-gap: 2em;
+}
+table {
+  margin-top: 1em;
+  border-collapse: collapse;
+  caption-side: bottom;
+}
+image {
+  max-width:100% ;
+}
+div img {
+  padding: 2%;
+  background-color: white;
+  box-shadow:2px 2px 6px  rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
 }
