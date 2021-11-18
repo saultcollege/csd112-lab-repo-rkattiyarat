@@ -160,16 +160,19 @@ h1 {
   background-clip: text;
   color: rgba(0, 0, 0, 0);
 }
-[class="bio"] {
+.bio {
   column-count: 3;
   column-gap: 2em;
+}
+.bio table {
+  column-span: all;
 }
 table {
   margin-top: 1em;
   border-collapse: collapse;
   caption-side: bottom;
 }
-image {
+img {
   max-width: 100%;
 }
 main div a img {
