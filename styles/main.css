@@ -59,7 +59,7 @@ nav a {
 }
 
 nav ul li {
-  display: inline;
+  list-style-type: none;
 }
 header {
   border-top: 4px solid rgba(0, 0, 0, 0.1);
@@ -75,6 +75,8 @@ nav {
   padding-bottom: 0.5em;
 }
 nav ul {
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
 }
@@ -190,4 +192,7 @@ a[href="#top"] {
 }
 a[href="#top"]:hover {
   text-decoration: none;
+}
+.favourites div{
+  display: none;
 }
