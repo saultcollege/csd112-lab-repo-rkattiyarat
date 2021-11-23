@@ -194,5 +194,37 @@ a[href="#top"]:hover {
   text-decoration: none;
 }
 .favourites div{
+  display:none;
+}
+
+input:checked+label+div{
+  display:flex ;
+  background-color: rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  
+  
+}
+div.favourites input{
   display: none;
+}
+div.favourites{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: bisque;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+
+}
+div.favourites label {
+  order:-1;
+  margin: 1em;
+  
+}
+div.favourites label:hover{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  border-bottom: 4px solid transparent;
+  border-bottom-color: red;
+  background-color: rgba(219, 135, 135, 0.5);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
