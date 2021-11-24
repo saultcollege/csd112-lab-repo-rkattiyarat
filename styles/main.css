@@ -189,9 +189,14 @@ footer {
 }
 a[href="#top"] {
   text-shadow: rgb(7, 7, 6) 1px 0 10px;
+  margin-left: -25px;
+  position: sticky;
+  bottom: 10px;
+  display: inline-block;
 }
 a[href="#top"]:hover {
   text-decoration: none;
+  transform: rotate(45deg);
 }
 .favourites div{
   display:none;
