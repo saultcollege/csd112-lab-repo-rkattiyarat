@@ -246,7 +246,7 @@ div.gallery a img{
 a.row-span-2{
   grid-row: span 2;
 }
-a.col-span-2.row-span-2{
+a.col-span-2{
   grid-column: span 2;
 }
 .gallery img{
@@ -255,4 +255,19 @@ a.col-span-2.row-span-2{
 }
 div.gallery a:hover{
   transform: scale(1.1);
+}
+img.paperclip{
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  position: absolute;
+  top: 7em;
+  left: 15em;
+}
+.paperclip a img{
+  width: 20%;
+}  
+
+a.bio{
+  display: block;
 }
