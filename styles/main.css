@@ -165,6 +165,7 @@ h1 {
 .bio {
   column-count: 3;
   column-gap: 2em;
+  position: relative;
 }
 .bio table {
   column-span: all;
@@ -177,11 +178,21 @@ table {
 img {
   max-width: 100%;
 }
-main div a img {
+.bio img {
   padding: 2%;
   background-color: white;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
+  display: block;
+  }
+
+img.paperclip{
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  position: absolute;
+  top: 0em;
+  right: 38em;
 }
 footer {
   font-size: 75%;
@@ -261,18 +272,12 @@ a.col-span-2{
 div.gallery a:hover{
   transform: scale(1.1);
 }
-img.paperclip{
-  border-radius: 0;
-  background-color: transparent;
-  box-shadow: none;
-  position: absolute;
-  top: 7em;
-  left: 15em;
-}
+
 .paperclip a img{
   width: 20%;
-}  
+}
 
 a.bio{
   display: block;
+  position: relative;
 }
