@@ -273,8 +273,3 @@ a.col-span-2{
 div.gallery a:hover{
   transform: scale(1.1);
 }
-
-a.bio{
-  display: block;
-  position: relative;
-}
