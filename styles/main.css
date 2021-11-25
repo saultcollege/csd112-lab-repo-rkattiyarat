@@ -183,12 +183,12 @@ img {
   background-color: white;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
   border-radius: 50%;
-  }
-.bio a{
+}
+.bio a {
   display: block;
   position: relative;
 }
-.paperclip{
+.paperclip {
   border-radius: 0;
   background: none;
   box-shadow: none;
@@ -212,34 +212,30 @@ a[href="#top"]:hover {
   text-decoration: none;
   transform: rotate(45deg);
 }
-.favourites div{
-  display:none;
-}
-
-input:checked+label+div{
-  display:flex ;
-  background-color: rgba(0, 0, 0, 0.15);
-  justify-content:center;
-  width: 100%;
-  
-  
-}
-div.favourites input{
+.favourites div {
   display: none;
 }
-div.favourites{
+
+input:checked + label + div {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.15);
+  justify-content: center;
+  width: 100%;
+}
+div.favourites input {
+  display: none;
+}
+div.favourites {
   display: flex;
   flex-wrap: wrap;
   background-color: bisque;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-
 }
 div.favourites label {
-  order:-1;
+  order: -1;
   margin: 1em;
-  
 }
-div.favourites label:hover{
+div.favourites label:hover {
   padding-left: 0.5em;
   padding-right: 0.5em;
   border-bottom: 4px solid transparent;
@@ -248,28 +244,28 @@ div.favourites label:hover{
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
-div.gallery{
+div.gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap:10px;
+  grid-gap: 10px;
 }
-div.gallery a img{
+div.gallery a img {
   border-radius: 0%;
   background-color: transparent;
   box-shadow: none;
-  padding:0em;
+  padding: 0em;
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-a.row-span-2{
+a.row-span-2 {
   grid-row: span 2;
 }
-a.col-span-2{
+a.col-span-2 {
   grid-column: span 2;
 }
 
-div.gallery a:hover{
+div.gallery a:hover {
   transform: scale(1.1);
 }
