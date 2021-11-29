@@ -235,7 +235,7 @@ div.favourites label {
   order: -1;
   margin: 1em;
 }
-div.favourites label:hover {
+div.favourites input:checked + label {
   padding-left: 0.5em;
   padding-right: 0.5em;
   border-bottom: 4px solid transparent;
