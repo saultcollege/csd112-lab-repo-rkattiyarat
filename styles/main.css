@@ -162,7 +162,7 @@ h1 {
   background-clip: text;
   color: rgba(0, 0, 0, 0);
 }
-.bio div{
+.bio {
   column-width: 13em;
   column-gap: 2em;
   position: relative;
