@@ -93,6 +93,24 @@ nav ul li a {
   border-top: 4px solid transparent;
 }
 
+@media screen and (max-width:500px) {
+nav ul{
+  flex-direction: column;
+  align-items: center;
+  height: 0;
+  overflow: hidden;
+  transition: height 200ms;
+  }
+nav ul li a {
+  padding-top: 0.5em; 
+  border-top: none;
+  }
+nav ul li a:hover {
+  border-top-color:none;
+  text-decoration: underline;
+  }
+  
+}
 td,
 th {
   padding-top: 0.3em;
@@ -208,14 +226,15 @@ tr td:first-child {
   padding-top: 0.3em;
   font-weight: bold;
 }
-tr td:last-child::after{
+tr td:last-child{
   padding-bottom: 0.3em;
   font-style: italic;
-  font-size: 0.8em;
-  content: "hrs/wk";
-}
-}
+  font-size: 0.8em;}
 
+tr td:last-child::after{
+  content: "hrs/wk";}
+
+}
 
 .paperclip {
   border-radius: 0;
@@ -276,6 +295,30 @@ div.favourites input:checked + label {
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width:800px){
+  div.favourites{
+    flex-direction: column;
+  }
+  div.favourites label {
+    order: 0;
+    text-align: center;
+    padding: 0;
+  }
+  input:checked + label + div {
+    background-color: rgb(252, 200, 209);
+    margin: 0;
+    border-radius: 10px;
+
+  }
+  div.favourites input:checked + label{
+    margin: 0;
+    border-radius: 15px;
+    
+    
+
+  }
+}
+
 div.gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(180px, 1fr));
@@ -311,4 +354,60 @@ div.gallery a:hover {
   transform: scale(1.1); 
   opacity: 1;
 }
+header nav input{
+  display: none;
+}
+header nav label{
+  display: none;
+}
+@media screen and (max-width:500px) {
+ label.sandwich-icon{
+   display: block;
+   width: 40px;
+   height: 25px;
+   border-top: solid 5px blueviolet;
+   margin-top: 1em;
+   margin-bottom: 1em;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+   position: relative;
+   transition: border-top 200ms;
+ }
 
+label.sandwich-icon::after{
+  content: "";
+  display: block;
+  width: 40px;
+  border-top: 5px solid blueviolet;
+  position: absolute;
+  top: 15px;
+  transition: transform 200ms; 
+
+}
+label.sandwich-icon::before{
+  content: "";
+  display: block;
+  width: 40px;
+  border-top: 5px solid blueviolet;
+  position: absolute;
+  top: 5px;
+  transition: transform 200ms;
+}
+
+nav input[id="menu-toggle"]:checked+label::before{
+  display: block;
+  transform: rotate(-45deg) translate(-3px,4px);
+}
+nav input[id="menu-toggle"]:checked+label::after{
+  display: block;
+  transform: rotate(45deg) translate(-3px,-4px);
+}
+nav input[id="menu-toggle"]:checked+label+ul{
+  height: 120px;
+}
+nav input[id="menu-toggle"]:checked+label{
+  transition: border-top 400ms;
+  border-top: transparent;
+}
+}
