@@ -248,7 +248,7 @@ img {
 }
 @media screen and (max-width:500px){
   .paperclip{
-  display: none;
+  visibility: hidden;
   }
 }
 footer {
