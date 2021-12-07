@@ -246,6 +246,11 @@ img {
   right: 26px;
   width: 20%;
 }
+@media screen and (max-width:500px){
+  .paperclip{
+  display: none;
+  }
+}
 footer {
   font-size: 75%;
   text-align: center;
