@@ -52,6 +52,7 @@ nav a {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 4px;
+  padding-bottom: 0.5em;
 }
 ::selection {
   color: blueviolet;
@@ -391,14 +392,14 @@ header nav label {
 
   nav input[id="menu-toggle"]:checked + label::before {
     display: block;
-    transform: rotate(-45deg) translate(-3px, 4px);
+    transform: rotate(-45deg) translate(-4px, 5px);
   }
   nav input[id="menu-toggle"]:checked + label::after {
     display: block;
-    transform: rotate(45deg) translate(-3px, -4px);
+    transform: rotate(45deg) translate(-2px, -3px);
   }
   nav input[id="menu-toggle"]:checked + label + ul {
-    height: 120px;
+    height: 150px;
   }
   nav input[id="menu-toggle"]:checked + label {
     transition: border-top 400ms;
