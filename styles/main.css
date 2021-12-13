@@ -222,7 +222,7 @@ img {
   table {
     caption-side: top;
   }
-  tr td:first-child {
+  tr td:first-of-type {
     padding-top: 0.3em;
     font-weight: bold;
   }
